@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Camp() {
   return (
-    <section className="container mx-auto relative px-6 lg:px-20 py-10 lg:py-20 lg:mb-10 flex flex-col">
+    <section className="container mx-auto relative px-6 lg:px-20 py-10 lg:py-20 lg:mb-10 flex flex-col mt-52">
       <div className="hide-scrollbar flex justify-start items-start h-[340px] lg:h-[400px] gap-8 overflow-x-auto">
         <CampSite
           backgroundImage="bg-bg-img-1"
@@ -45,7 +45,7 @@ function CampSite({
 }) {
   return (
     <div
-      className={`h-full min-w-[900px] ${backgroundImage} bg-cover bg-no-repeat rounded-r-3xl lg:rounded-3xl`}
+      className={`h-full min-w-[900px] ${backgroundImage} bg-cover bg-no-repeat rounded-3xl`}
     >
       <div className="w-full h-full flex flex-col items-start justify-between p-6 lg:px-10">
         <div className="flex items-center justify-start gap-6">
