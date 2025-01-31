@@ -3,9 +3,9 @@ import Button from "./ui/button";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto px-6 py-10 pb-32 flex flex-col gap-20 lg:flex-row">
+    <section className="container mx-auto px-6 lg:px-20 py-10 pb-32 flex flex-col gap-20 lg:flex-row">
       <div className="hero-map" />
-      <div className="relative z-20 flex flex-col flex-0 lg:w-1/2 border-2 border-red-500">
+      <div className="relative z-20 flex flex-col flex-0 lg:w-1/2">
         <Image
           src={"/camp.svg"}
           alt="camp"
@@ -68,6 +68,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
