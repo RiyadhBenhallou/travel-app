@@ -6,7 +6,7 @@ import Menu from "./ui/menu";
 
 export default function Navbar() {
   return (
-    <nav className="container mx-auto px-6 lg:px-20 py-4">
+    <nav className="container mx-auto py-4">
       <div className="flex items-center justify-between">
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
         {/* Add more navbar items here if needed */}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Guide() {
   return (
-    <section className="container mx-auto px-6 py-12 lg:py-20">
+    <section className="container mx-auto py-12 lg:py-20">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-12">
         <div className="w-full lg:w-1/2 space-y-4">
           <Image
