@@ -3,7 +3,7 @@ import Button from "./ui/button";
 
 export default function Hero() {
   return (
-    <section className="container mx-auto px-6 lg:px-20 py-10 pb-32 mb-32 flex flex-col gap-20 lg:flex-row">
+    <section className="container mx-auto px-6 lg:px-20 py-10 pb-32 mt-14 flex flex-col gap-20 lg:flex-row">
       <div className="hero-map mt-28 lg:mt-0" />
       <div className="relative z-20 flex flex-col lg:w-1/2">
         <Image
