@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section className="border-2 py-24 bg-feature-bg bg-center gb-cover bg-no-repeat justify-end overflow-hidden">
+    <section className="py-24 bg-feature-bg bg-center gb-cover bg-no-repeat justify-end overflow-hidden">
       <div className="container mx-auto relative w-full flex">
         <div className="md:flex flex-1 min-h-[700px] hidden">
           <Image
