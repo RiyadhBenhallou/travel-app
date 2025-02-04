@@ -21,7 +21,7 @@ export default function Features() {
               alt="camp"
               height={50}
               width={50}
-              className="absolute -top-10 -left-2"
+              className="absolute -top-12 -left-2"
             />
             <h2 className="text-4xl font-bold">Our Features</h2>
           </div>
